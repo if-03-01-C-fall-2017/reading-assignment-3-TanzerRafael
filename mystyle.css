@@ -1,0 +1,55 @@
+ol.a {
+	list-style-type: upper-roman;
+}
+
+ul.b{
+	list-style-image: url('bullet.png');
+}
+
+dl{
+	margin-left: 24px; 
+}
+
+h2{
+	margin: 0 1px;
+	color: orange;
+}
+
+section{
+	border: solid;
+	border-color: orange;
+	border-width: 5px;
+	padding: 0 1px;
+	margin: -6px 1px 4px 1px;
+}
+
+table, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table{
+	margin: 1em 0 1em 1em;
+}
+
+th{
+	color: white;
+	background-color: #000;
+	border: 2px solid grey;
+	text-align: left;
+}
+
+th.left{
+	border-right: 0;
+}
+th.right{
+	border-left: 0;
+}
+
+td{
+	text-align: left;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
